@@ -21,7 +21,7 @@
 ## 🔖 &nbsp; Sobre
 <hr />
 
-under construction
+Aplicação React para consumir uma API e listar seus dados e detalhando-os em outra seção. Simples, funcional e responsivo (em breve).
 ---
 <hr/>
 
@@ -33,6 +33,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [React](https://reactjs.org)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Axios](https://github.com/axios/axios)
+- [React Router Dom](https://reactrouter.com/web/guides/quick-start)
 
 ---
 
@@ -41,10 +43,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ```bash
 
     # Clonar o repositório
-    $ git clone https://github.com/yangvaz/????
+    $ git clone https://github.com/yangvaz/api-consumer
 
     # Entrar no diretório
-    $ cd ????
+    $ cd api-consumer
 
     # Instalar as dependências
     $ yarn install
@@ -53,6 +55,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
     $ yarn start
 ```
 
+---
+<br />
+
+1. Possíveis otimizações de performance que poderia ser feito no código: <br />
+R: Possível refatoração e melhor uso dos filtros.
+
+2. O que pode ser melhorado? <br />
+R: Principalmente a aparência da página, que ainda será feita, e a experiência do usuário. Precisando conhecer mais as regras de negócio pra ter mais precisão nessa questão.
+<br />
 ---
 
 Desenvolvido por Yan Garcia 🥑 

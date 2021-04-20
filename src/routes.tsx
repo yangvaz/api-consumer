@@ -8,7 +8,7 @@ function Routes() {
     <BrowserRouter>
       <Switch>
         <Route path="/" exact component={List} />
-        <Route path="/details" component={Details} />
+        <Route path="/details/:id" component={Details} />
       </Switch>
     </BrowserRouter>
   );
