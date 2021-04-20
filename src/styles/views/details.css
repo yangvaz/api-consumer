@@ -115,3 +115,37 @@ ul {
   padding: 30px;
   margin-left: -30px;
 }
+
+
+/* Parte da responsividade */
+
+/* Large desktop */
+@media (max-width: 1150px) {
+  
+}
+
+
+@media (max-width: 950px) { 
+
+}
+
+@media (max-width: 750px) { 
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+
+}
+
+@media (max-width: 600px) {
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {  }
