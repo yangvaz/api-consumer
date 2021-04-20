@@ -35,6 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Axios](https://github.com/axios/axios)
 - [React Router Dom](https://reactrouter.com/web/guides/quick-start)
+- [React Feather Icons](https://github.com/feathericons/react-feather)
 
 ---
 

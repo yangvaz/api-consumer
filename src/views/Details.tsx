@@ -1,4 +1,4 @@
-import { Fragment, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 import "../styles/views/details.css";
 import { useParams } from "react-router-dom";
@@ -36,10 +36,12 @@ function List() {
     api.get(`posts/`).then((response) => {
       const result = response.data;
       //Filtrando o item, que já foi exibido na tela, do Array
-      const itemsFilter = result.filter((item:any) => item.id !== Number(params.id));
-      
+      const itemsFilter = result.filter(
+        (item: any) => item.id !== Number(params.id)
+      );
+
       //Limitando a exibição de posts para 4
-      if(itemsFilter.length > 4) {
+      if (itemsFilter.length > 4) {
         itemsFilter.length = 4;
       }
       setItems(itemsFilter);
@@ -47,24 +49,62 @@ function List() {
   }, [params.id]);
 
   return (
-    <Fragment>
-      <h2> Detalhes do post selecionado: </h2>
-      <hr />
-      <ul>
-        <li> title: {titleSelected} </li>
-        <li> body: {bodySelected} </li>
-        <br />
-      </ul>
+    <div className="main">
+      <div className="detailsContainer">
+        <section className="detailsHeader">
+          <div className="detailsTextHeader">
+            <div className="gradient"> Code N Soul </div>
+          </div>
+        </section>
 
-      <h3> Leia mais (soon) </h3>
-      <p> Os 4 primeiros, sem considerar o exibido acima: </p>
+        <section className="mainDetailsDiv">
+          <div className="showDetails">
+            <div className="about">
+              <h2> Detalhes do post selecionado </h2>
+            </div>
+            <div className="infoPost">
+              <ul>
+                <li>
+                  {" "}
+                  <span> Title: </span> {titleSelected}{" "}
+                </li>
+                <li>
+                  {" "}
+                  <span> Body: </span> {bodySelected}{" "}
+                </li>
+                <br />
+              </ul>
+            </div>
+          </div>
 
-      {items.map((item) => (
-        <div key={item.id} className="item">
-          <a href={`/details/${item.id}`}>{JSON.stringify(item)}</a>
-        </div>
-      ))}
-    </Fragment>
+          <div className="readMore">
+            <h3> Leia mais </h3>
+            <span>
+              {" "}
+              Os 4 primeiros da lista, sem considerar o exibido acima{" "}
+            </span>
+
+            <div className="showTheFour">
+              {items.map((item) => (
+                <div key={item.id} className="item">
+                  <a href={`/details/${item.id}`}>
+                    <ul>
+                      <li key={item.id}> userId: {item.userId} </li>
+                      <li> id: {item.id} </li>
+                      <li> title: {item.title} </li>
+                      <li> body: {item.body} </li>
+                    </ul>
+                  </a>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+        <section className="footer">
+          <a href="/"> Voltar pra página inicial </a>
+        </section>
+      </div>
+    </div>
   );
 }
 

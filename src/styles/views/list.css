@@ -1,7 +1,114 @@
 * {
-  max-width: 600px;
+  box-sizing: border-box;
 }
 
-.item {
-  margin-bottom: 30px;
+ul {
+  list-style: none;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+}
+
+.container {
+  width: 800px;
+}
+
+.titleHeader {
+  height: 70vh;
+  width: 100%;
+  margin-top: 5 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleHeader .textHeader {
+  min-width: 850px;
+  font-weight: 600;
+  font-size: 5.2rem;
+  text-align: center;
+}
+
+.titleHeader .textHeader .gradient {
+  background: -webkit-linear-gradient(right, #faf2e7 0%, #ec947a 100%);
+  background: linear-gradient(to left, #faf2e7 0%, #ec947a 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.badgesContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.badgesContainer .badge {
+  max-width: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: gray;
+}
+
+.badgesContainer .badge svg {
+  width: 44px;
+  height: 44px;
+  margin-bottom: 10px;
+
+  color: gray;
+  transition: 0.5s;
+}
+
+.badgesContainer .badge svg:hover {
+  color: #ec947a;
+  transform: scale(1.2);
+}
+
+.badgesContainer .mid svg {
+  transition: 1.2s;
+}
+
+.badgesContainer .mid svg:hover {
+  color: #ec947a;
+  transform: rotate(360deg);
+}
+
+.badgesContainer .mid {
+  margin-top: -40px;
+}
+
+.container .listSection {
+  width: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .listSection .listContainer {
+  width: 80%;
+}
+
+.container .listSection .listContainer h2 {
+  font-size: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.container .listSection .listContainer hr {
+  margin-bottom: 20px;
 }
