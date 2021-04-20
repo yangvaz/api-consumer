@@ -16,3 +16,14 @@ body {
   color: #fff;
   background: #02021E;
 }
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ec947a;
+  transition: 0.3s;
+}
