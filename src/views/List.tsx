@@ -26,11 +26,26 @@ function List() {
   return (
     <div className="main">
       <div className="container">
-        <div className="whiteCircle" />
+        <div className="starsContainer">
+          <div className="uranusPlanet" />
+          <div className="neptunePlanet" />
+
+          <div className="oneBigStar" />
+
+          <div className="one litteStar" />
+          <div className="two litteStar" />
+          <div className="three litteStar" />
+          <div className="four litteStar" />
+          <div className="five litteStar" />
+          <div className="six litteStar" />
+          <div className="seven litteStar" />
+
+        </div>
+
         <section className="titleHeader">
           <div className="textHeader">
-              <div className="gradient"> Code N Soul </div> Desafio proposto e
-              <div className="gradient"> mais do que feito </div> como veremos
+            <div className="gradient"> Code N Soul </div> Desafio proposto e
+            <div className="gradient"> mais do que feito </div> como veremos
           </div>
         </section>
 
