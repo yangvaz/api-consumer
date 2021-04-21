@@ -21,7 +21,7 @@
 ## 🔖 &nbsp; Sobre
 <hr />
 
-Aplicação React para consumir uma API e listar seus dados e detalhando-os em outra seção. Simples, funcional e responsivo (em breve).
+<h4> Aplicação React para consumir uma API e listar seus dados e detalhando-os em outra seção. Simples, funcional e responsivo. </h4>
 ---
 <hr/>
 
