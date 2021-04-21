@@ -32,14 +32,15 @@ function List() {
 
           <div className="oneBigStar" />
 
-          <div className="one litteStar" />
-          <div className="two litteStar" />
-          <div className="three litteStar" />
-          <div className="four litteStar" />
-          <div className="five litteStar" />
-          <div className="six litteStar" />
-          <div className="seven litteStar" />
-
+          <div className="litteStars">
+            <div className="one" />
+            <div className="two" />
+            <div className="three" />
+            <div className="four" />
+            <div className="five" />
+            <div className="six" />
+            <div className="seven" />
+          </div>
         </div>
 
         <section className="titleHeader">

@@ -30,15 +30,13 @@ a:hover {
 
 .container .starsContainer div {
   position: absolute;
-  border-radius: 50%;
+  border-radius: 50%; 
 }
 
 .uranusPlanet {
   height: 60px;
   width: 60px;
   margin: 100px -150px;
-
-  border-radius: 50%;
 
   background: linear-gradient(320deg, #68a3e2 20%, #fff 80%);
 }
@@ -47,8 +45,6 @@ a:hover {
   height: 44px;
   width: 44px;
   margin: 180px 880px;
-
-  border-radius: 50%;
 
   background: linear-gradient(40deg, #02021E 20%, #7996EC 80%);
 }
@@ -59,35 +55,35 @@ a:hover {
   margin: 350px -150px;
 
   background: #fff;
-  opacity: 80%;
+  opacity: 0.8;
 }
 
-.litteStar {
+.container .starsContainer .litteStars div {
   height: 1px;
   width: 1px;
 
   background: #fff;
-  opacity: 50%;
+  opacity: 0.5;
 }
 
-.one {
+.container .starsContainer .litteStars .one {
   margin: 220px -100px;
 }
-.two {
+.container .starsContainer .litteStars .two {
   margin: 800px -100px;
 }
-.three {
+.container .starsContainer .litteStars .three {
   margin: 530px 250px;
 }
-.four {
+.container .starsContainer .litteStars .four {
   margin: 650px 160px;
 }
-.five {
+.container .starsContainer .litteStars .five {
   margin: 700px 480px;
 }
-.six {
+.container .starsContainer .litteStars .six {
   margin: 320px 840px;
 }
-.seven {
+.container .starsContainer .litteStars .seven {
   margin: 760px 900px;
 }
