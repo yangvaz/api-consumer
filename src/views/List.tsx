@@ -45,8 +45,9 @@ function List() {
 
         <section className="titleHeader">
           <div className="textHeader">
-            <div className="gradient"> Code N Soul </div> Desafio proposto e
-            <div className="gradient"> mais do que feito </div> como veremos
+            <span className="gradient"> Code N Soul </span>
+            Desafio recebido e feito
+            <span className="gradient"> com gosto </span>
           </div>
         </section>
 

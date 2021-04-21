@@ -26,9 +26,9 @@ ul {
 }
 
 .titleHeader .textHeader {
-  /* min-width: 850px; */
   font-weight: 600;
   font-size: 5.2rem;
+  line-height: 80px;
   text-align: center;
 }
 
