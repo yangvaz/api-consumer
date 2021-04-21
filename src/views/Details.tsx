@@ -77,6 +77,8 @@ function List() {
             </div>
           </div>
 
+          <hr />
+
           <div className="readMore">
             <h3> Leia mais </h3>
             <span>

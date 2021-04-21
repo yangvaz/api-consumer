@@ -26,7 +26,6 @@ ul {
 }
 
 .detailsHeader .detailsTextHeader {
-  min-width: 850px;
   font-weight: 600;
   font-size: 5.2rem;
   text-align: center;
@@ -45,11 +44,14 @@ ul {
   height: 100%;
 }
 
+.mainDetailsDiv hr {
+  border: 1px solid #ec947a; 
+}
+
 .mainDetailsDiv .showDetails {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   margin-bottom: 50px;
 }
 
@@ -61,7 +63,6 @@ ul {
   display: flex;
   align-items: center;
   text-align: start;
-  /* background: gray; */
 }
 
 .mainDetailsDiv .showDetails .infoPost {
@@ -88,8 +89,7 @@ ul {
   line-height: 40px;
 }
 
-.mainDetailsDiv .readMore {
-}
+.mainDetailsDiv .readMore {}
 
 .mainDetailsDiv .readMore h3 {
   text-align: start;
@@ -124,22 +124,39 @@ ul {
   
 }
 
-
-@media (max-width: 950px) { 
-
+@media (max-width: 880px) { 
+  .detailsContainer {
+    width: 680px;
+  }
 }
 
-@media (max-width: 750px) { 
-
+@media (max-width: 730px) { 
+  .detailsContainer {
+    width: 500px;
+  }
+  .mainDetailsDiv .showDetails {
+    flex-direction: column;
+  }
+  .mainDetailsDiv .showDetails .about {
+    min-width: 100%;
+    justify-content: center;
+  }
 }
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) { 
-
-}
-
-@media (max-width: 600px) {
-
+@media (max-width: 550px) {
+  .detailsContainer {
+    width: 450px;
+  }
+  .detailsHeader {
+    height: 25vh;
+  }
+  .detailsHeader .detailsTextHeader {
+    font-size: 4.2rem;
+  }
+  .mainDetailsDiv .showDetails .about {
+    height: 6rem;
+  }
 }
 
 /* Landscape phones and down */

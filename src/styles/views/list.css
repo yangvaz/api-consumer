@@ -111,6 +111,7 @@ ul {
 
 .container .listSection .listContainer hr {
   margin-bottom: 20px;
+  border: 1px solid #ec947a; 
 }
 
 /* Parte da responsividade */
