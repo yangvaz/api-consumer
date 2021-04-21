@@ -1,5 +1,5 @@
 <h1 align="center">
-    <!-- <img src=""> --> {Imagem pra demonstrar o projeto aqui em breve}
+    <img src="public/apresentacao-web.PNG"> 
 </h1>
 
 <br />
@@ -60,10 +60,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 <br />
 
 1. Possíveis otimizações de performance que poderia ser feito no código: <br />
-R: Possível refatoração e melhor uso dos filtros.
+R: Depende de qual tamanho seria a aplicação. A possibilidade de usar Next pra e gerar uma página estática pra exibir as informações me parece uma boa ideia. E daí talvez passar as informações por props, contextAPI ou seja como for, ao invés de fazer sempre a requisição na API.
 
 2. O que pode ser melhorado? <br />
-R: Principalmente a aparência da página, que ainda será feita, e a experiência do usuário. Precisando conhecer mais as regras de negócio pra ter mais precisão nessa questão.
+R: Além de alguns detalhes, um layout mais bonito no fundo da página, que ainda irei implementar, mas por falta de tempo no momento vou ficar devendo. E claro, preciso conhecer mais as regras de negócio pra ter mais precisão em ambas questões.
 <br />
 
 ---

@@ -41,9 +41,8 @@ function List() {
       );
 
       //Limitando a exibição de posts para 4
-      if (itemsFilter.length > 4) {
-        itemsFilter.length = 4;
-      }
+      itemsFilter.length = 4;
+      
       setItems(itemsFilter);
     });
   }, [params.id]);

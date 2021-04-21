@@ -27,3 +27,14 @@ a:hover {
   color: #ec947a;
   transition: 0.3s;
 }
+
+.whiteCircle {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  margin: 100px -150px;
+
+  border-radius: 50%;
+
+  background: linear-gradient(320deg, #68a3e2 20%, #fff 80%);
+}

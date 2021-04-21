@@ -26,6 +26,7 @@ function List() {
   return (
     <div className="main">
       <div className="container">
+        <div className="whiteCircle" />
         <section className="titleHeader">
           <div className="textHeader">
               <div className="gradient"> Code N Soul </div> Desafio proposto e
