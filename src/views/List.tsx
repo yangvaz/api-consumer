@@ -54,7 +54,7 @@ function List() {
         <section className="badgesContainer">
           <div className="badge">
             {" "}
-            <Award /> Premiado como melhor design do Brasil{" "}
+            <Award /> Premiado como melhor design do Brasil {" "}
           </div>
           <div className="badge mid">
             {" "}
